@@ -1,0 +1,774 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: url(../img/fon1.jpg) fixed;
+	background-size: cover;
+	height: 614px;
+}
+.wrap{
+	position: relative;
+	width: 813px;
+	margin:0 auto;
+}
+.title_head {
+	position: absolute;
+	margin-top: 31px;
+}
+
+.new{
+	position: relative;
+	background-color: black;
+	width: 80px;
+	height: 80px;
+	z-index: 1;
+	border-radius: 200%;	
+	color: #fff;
+}
+
+.title_head img{
+	position: absolute;
+	z-index: 2;
+}
+.title_head p{
+	position: absolute;
+	margin-top: 18px;	
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 14px;
+	margin-left: 13px;
+}
+.new span{
+	position: absolute;
+	margin-top: 34px;
+	color: rgb(255, 215, 0);
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 14px;
+}
+
+#gen_mone{
+	position: absolute;
+	font-family: 'Lobster', sans-serif;
+	font-size: 28px;
+	margin-left: 188px;
+	margin-top: 30px;
+	color: #fff;
+	font-style: italic;
+}
+#baell{
+	position: absolute;
+	font-family: 'Lobster', sans-serif;
+	font-size: 71px;
+	color: rgb(238, 130, 238);
+	margin-left: 308px;
+	margin-top: 44px;	
+}
+#hit{
+	position: absolute;
+	font-family: 'Lobster', sans-serif;
+	font-size: 28px;
+	margin-left: 567px;
+	margin-top: 109px;
+	color: #fff;
+	font-style: italic;
+}
+#portmone{
+	margin-top: 96px;
+}
+.img_form{
+	position: relative;
+}
+#old_cena{
+	position: absolute;
+	text-decoration:line-through;
+	color: #fff;
+	font-family: 'Lobster', sans-serif;
+	font-size: 55px;
+	margin-left: 64px;
+	margin-top: 177px;
+	font-style: italic;
+}
+#new_cena{
+	position: absolute;
+	font-family: 'Lobster', sans-serif;
+	font-size: 45px;
+	margin-left: 22px;
+	margin-top: 235px;
+	font-weight: bold;
+	color: rgb(218, 165, 32);
+}
+
+#entrtel {
+	position: absolute;
+	box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 13px;
+    font-size: 19px;
+    background-color: white;
+    background-image: url('../img/phone_form.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 9px 10px 9px 33px;
+    margin-top: 343px;
+    margin-left: 13px;
+    width: 260px;
+}
+#entrname{
+	position: absolute;
+	box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 13px;
+    font-size: 19px;
+    background-color: white;     
+    padding: 9px 10px 9px 33px;
+    margin-top: 298px;
+    margin-left: 13px;
+    width: 260px;
+}
+#entrname:focus{
+	 box-shadow: 0px 0px 14px -5px #0080c0;	 
+}
+#entrtel:focus{
+	 box-shadow: 0px 0px 14px -5px #0080c0;
+}
+
+.button_form{
+    position: absolute;	
+	background-color:rgb(182, 146, 3);
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:13px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:26px;
+	padding:3px 60px;
+	text-decoration:none;	
+	text-transform: uppercase;
+	margin-top: 388px;
+	margin-left: 14px;
+}
+.button_form:hover {
+	background-color:rgb(255, 205, 6);
+}
+.ukazka{	
+	position: absolute;
+	margin-top: 381px;
+	margin-left: 261px;
+}
+.vnimanie{
+	position: absolute;
+	border: 1px solid #ffffff;
+	padding: 6px 28px;
+	border-radius: 20px;
+	margin-top: 478px;
+	margin-left: -10px;	
+}
+#vnim{
+	text-align: center;
+	color: rgb(238, 130, 238);
+	text-transform: uppercase;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+#vsem_pok{
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+#dior{
+	color: rgb(238, 130, 238);
+	text-align: center;
+}
+.car{
+	position: absolute;
+	margin-left:350px;
+	margin-top: 477px; 
+}
+.money{
+	position: absolute;
+	margin-left: 357px;
+	margin-top: 521px;
+}
+#dostavka{
+	position: absolute;
+	color: #ffffff;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 14px;
+	margin-left: 404px;
+	margin-top: 482px;
+}
+#oplata{
+	position: absolute;
+	color: #ffffff;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 14px;
+	margin-left: 402px;
+	margin-top: 524px;
+}
+/* ---------------Ка выглядит товар---------------*/
+
+.looks{
+	position: relative;
+	background: url(../img/fon2.jpg) fixed;
+	background-size: cover;
+	height: 601px;
+}
+.header_section{
+	position: absolute;
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.8;
+	color: #fff;
+	text-align: center;
+}
+.header_section h1{
+	opacity: 1;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 35px;
+	margin-bottom: 7px;
+	margin-top: 16px;
+}
+.image_section2{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 10px;
+}
+.image_section2 img{
+	padding-left: 5px;
+	padding-bottom: 5px;	
+}
+
+/*---------------- Характеристики-----------*/
+
+.characteristics{
+	position: relative;
+	background: url(../img/fon3.jpg) fixed;
+	background-size: cover;
+	height: 547px;
+	font-size: 22px;
+	font-family:'Lobster', sans-serif;
+	color:#ffffff;
+}
+
+#portmone_two{
+	margin-top: 76px;
+	margin-left: 65px;
+}
+
+#chara_text_one{
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 180px;
+}
+#chara_text_one img,
+#chara_text_two img,
+#chara_text_tree img,
+#chara_text_four img,
+#chara_text_five img{	
+	float: left;
+	padding-right: 5px;
+}
+#chara_text_two{
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 220px
+}
+#chara_text_tree{
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 260px
+}
+#chara_text_four{
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 300px
+}
+#chara_text_five{
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 340px
+}
+
+/*----------------Вместительность портмоне-----------*/
+
+.capacity{
+	position: relative;
+	background: url(../img/fon4.jpg) fixed;
+	background-size: cover;
+	height: 587px;
+	font-size: 20px;
+	font-family: 'Jura', sans-serif;
+	color:#ffffff;
+}
+
+.capacity img{
+	position: absolute;
+	margin-left: 485px;
+	margin-top: 102px;
+}
+
+.capacity span{
+	position: absolute;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	width: 240px;
+	padding-top: 12px;
+	padding-bottom: 12px;	
+}
+#capa_text_one{
+	margin-left: 435px;
+	margin-top: 80px;
+}
+#capa_text_two{
+	margin-left: 840px;
+	margin-top: 115px;
+}
+#capa_text_tree{
+	margin-left: 254px;
+	margin-top: 210px;
+}
+#capa_text_four{
+	margin-left: 911px;
+	margin-top: 248px;
+}
+#capa_text_five{
+	margin-left: 284px;
+	margin-top: 420px;
+}
+#capa_text_six{
+	margin-left: 850px;
+	margin-top: 420px;
+}
+#capa_text_seven{
+	margin-left: 602px;
+	margin-top: 525px;
+}
+/*----------------Гарантии-----------*/
+
+.guarantee{
+	position: relative;	
+	height: 183px;
+	font-size: 18px;
+	font-family: 'Jura', sans-serif;	
+}
+.guarantee img{
+	position: absolute;
+	margin-top: 22px;
+}
+
+#guarantee_img_one{
+	margin-left: 300px;	
+}
+#guarantee_img_two{
+	margin-left: 538px;	
+}
+#guarantee_img_tree{
+	margin-left: 787px;	
+}
+#guarantee_img_four{
+	margin-left: 1005px;	
+}
+
+.guarantee span{
+	position: absolute;
+	margin-top: 110px;
+	font-weight:bold;
+	text-align: center;
+}
+#guarantee_txt_one{
+	margin-left: 265px;
+}
+#guarantee_txt_two{
+	margin-left: 460px;
+}
+#guarantee_txt_tree{
+	margin-left: 734px;
+}
+#guarantee_txt_four{
+	margin-left: 952px;
+}
+
+/*----------------Ответы на вопросы-----------*/
+
+.questions{
+	position: relative;
+	background: url(../img/fon5.jpg) fixed;
+	background-size: cover;
+	height: 963px;	
+}
+.questions h1{
+	width: 100%;
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	color: #fff;
+	font-size: 46px;
+	font-weight:normal;
+}
+.questions p,
+.questions h3{
+	position: absolute;
+}
+.questions h3{
+	font-weight:normal;
+	color: rgb(218, 165, 32);
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 22px;
+	font-style: italic;
+}
+.yellow_sl{
+	color: rgb(218, 165, 32);
+	font-size: 20px;
+	font-family:'Play', sans-serif ;
+	font-weight:bold;
+}
+.questions p{
+	font-family:'Play', sans-serif ;
+	color: #fff;
+	font-size: 20px;
+}
+#questions_h1{
+	margin-top: 145px;
+	margin-left: 202px;
+}
+#questions_txt_one{
+	width: 381px;
+	margin-top: 182px;
+	margin-left: 202px;
+}
+#questions_h2{
+	margin-top: 145px;
+	margin-left: 728px;
+}
+#questions_txt_two{
+	width: 381px;
+	margin-top: 207px;
+	margin-left: 728px;
+}
+#questions_h3{
+	margin-top: 370px;
+	margin-left: 202px;
+}
+#questions_txt_tree{
+	width: 381px;
+	margin-top: 430px;
+	margin-left: 202px;
+}
+#questions_h4{
+	margin-top: 370px;
+	margin-left: 728px;
+}
+#questions_txt_four{
+	width: 381px;
+	margin-top: 430px;
+	margin-left: 728px;
+}
+#questions_h5{
+	margin-top: 612px;
+	margin-left: 202px;
+}
+#questions_txt_five{
+	width: 381px;
+	margin-top: 677px;
+	margin-left: 202px;
+}
+#questions_h6{
+	margin-top: 658px;
+	margin-left: 728px;
+}
+#questions_txt_six{
+	width: 381px;
+	margin-top: 700px;
+	margin-left: 728px;
+}
+
+/*----------------Как мы работаем-----------*/
+
+.we_working{
+	position: relative;
+	background: url(../img/fon6.jpg) fixed;
+	background-size: cover;
+	height: 537px;
+	font-family:'Play', sans-serif ;
+}
+.we_img{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+
+.we_working h1{
+	width: 100%;
+	position: absolute;
+	font-family: 'Play', sans-serif;
+	text-align: center;
+	margin-top: 57px;
+	color: #fff;
+	font-size: 53px;
+	font-weight:normal;
+}
+.circle{
+	width: 135px;
+	height: 135px;
+	border-radius: 70px;
+	position: absolute;
+	border:2px solid #fff;
+	margin-top: 195px;	
+}
+.circle1{
+	margin-left: 255px;	
+}
+.circle2{
+	margin-left: 490px;	
+}
+.circle3{
+	margin-left: 720px;	
+}
+.circle4{
+	margin-left: 958px;	
+}
+.strelka{
+	margin-top: 248px;
+}
+.str1{
+	margin-left: 424px;
+}
+.str2{
+	margin-left: 175px;
+}
+.str3{
+	margin-left: 180px;
+}
+
+.we_working p{
+	position: absolute;
+	margin-top: 70px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+#we_working_txt{
+	margin-left: 228px;
+}
+#we_working_txt2{
+	margin-left: 460px;
+}
+#we_working_txt3{
+	margin-left: 720px;
+}
+#we_working_txt4{
+	margin-left: 900px;
+}
+
+/*----------------Футер-----------*/
+
+footer{
+	position: relative;
+	background: url(../img/fon7.jpg) fixed;
+	background-size: cover;
+	height: 800px;
+	font-family:'Play', sans-serif ;
+}
+#foot_img{
+	position: absolute;
+	z-index: 2;
+	margin-top: -61px;
+	margin-left: 327px
+}
+.header_section_foot{
+	position: absolute;
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.7;
+}
+.header_section_foot h1{
+	font-family: 'Bad Script', sans-serif;
+	font-size: 36px;
+	color: rgb(218, 165, 32);
+	margin-top: 0;
+	text-align: center;
+	margin-right: 135px;
+	font-weight:normal;	
+	height: 22px;
+	opacity: 1;	
+}
+.header_section_foot p{
+	font-family: 'Bad Script', sans-serif;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	margin-right: 58px;
+	margin-top: 0;
+	margin-bottom: 0;
+	opacity: 1;	
+}
+.attention{
+	position: absolute;
+	width: 389px;
+	height: 193px;
+	background-color: #000000;
+	opacity: 0.7;
+	margin-left: 746px;
+	margin-top: 121px;
+	border-radius: 13px;
+	text-align: center;
+}
+.attention h2{
+	font-family: 'Comfortaa', sans-serif;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 28px;
+	color: rgb(255, 182, 0);
+	opacity: 1;
+	margin-top: 42px;
+}
+.attention p{
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 19px;
+	color: #fff;
+}
+.attention span{
+	color: rgb(255, 182, 0);
+}
+
+#foot_strelka{
+	position: absolute;
+	margin-left: 691px;
+	margin-top: 295px;
+}
+.foot_form{
+	position: absolute;
+	width: 408px;
+	height: 331px;
+	background-color: #000000;
+	opacity: 0.7;
+	border: 2px solid #fff;
+	margin-top: 194px;
+	margin-left: 296px;
+	text-align: center;
+}
+.foot_form span{
+	color: rgb(255, 182, 0);
+}
+.foot_form p{
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#entrtel_foot {	
+	box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 13px;
+    font-size: 19px;
+    background-color: white;
+    background-image: url('../img/phone_form.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 33px;    
+    width: 315px;
+    margin-top: 10px;
+}
+#entrname_foot{	
+	box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 13px;
+    font-size: 19px;
+    background-color: white;     
+    padding: 12px 10px 12px 33px;    
+    width: 315px;    
+}
+#entrname_foot:focus{
+	 box-shadow: 0px 0px 14px -5px #0080c0;	 
+}
+#entrtel_foot:focus{
+	 box-shadow: 0px 0px 14px -5px #0080c0;
+}
+
+.button_form_foot{    	
+	background-color:rgb(182, 146, 3);
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:13px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:26px;
+	padding:12px 53px;
+	text-decoration:none;	
+	text-transform: uppercase;
+	margin-top: 10px;	
+}
+.button_form_foot:hover {
+	background-color:rgb(255, 205, 6);
+}
+
+#foot_old_cena{
+	position: absolute;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 55px;
+	text-decoration: line-through;
+	color: #fff;
+	margin-top: 418px;
+	margin-left: 855px
+}
+#foot_new_cena{
+	position: absolute;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 46px;	
+	color: rgb(128, 0, 128);
+	margin-top: 473px;
+	margin-left: 826px;
+	font-weight:bold;
+}
+#text_foot{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 24px;
+	margin-top: 573px;
+	margin-left: 767px;
+}
+
+.fiol{
+	color: rgb(128, 0, 128);
+}
+#city{
+	font-family:'Play', sans-serif ;
+	font-size: 14px;
+	position: absolute;
+	margin-top: 706px;
+	margin-left: 187px;
+	color: #fff;
+}
+#copy{
+	font-family:'Play', sans-serif ;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 700px;
+	margin-left: 478px;
+	color: #fff;
+	text-align: center;
+}
+#politica{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	margin-top: 770px;
+	color: #fff;
+}
